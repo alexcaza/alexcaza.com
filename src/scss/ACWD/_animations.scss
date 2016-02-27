@@ -1,0 +1,56 @@
+/* Animations & Animated Classes */
+
+.popout__icon {
+    transition: transform 250ms ease-in-out;
+    &.left {
+        &.hide {
+            transform: translate(5rem, 5rem);
+        }
+    }
+    &.top {
+        &.hide {
+            transform: translateY(5rem);
+        }
+    }
+    &.right {
+        &.hide {
+            transform: translate(-5em, 5rem);
+        }
+    }
+}
+
+.wiggle {
+    // animation: 1s wiggle cubic-bezier(.26,.57,.72,.4);
+    animation: 1s wiggle ease-in-out;
+    animation-delay: 1s;
+}
+
+/* Keyframes */
+
+@keyframes wiggle {
+    0% {
+        transform: translateX(.2rem);
+    }
+
+    25% {
+        transform: translateX(-.2rem);
+    }
+
+    50% {
+        transform: translateX(.2rem);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes intro-show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

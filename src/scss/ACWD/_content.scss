@@ -1,0 +1,15 @@
+/* Content */
+
+section {
+    display: flex;
+    flex-direction: column;
+    animation: intro-show 1.5s linear;
+
+    .section-title {
+        font-family: $font-stack-serif;
+    }
+
+    p, a {
+        line-height: 1.7rem;
+    }
+}
