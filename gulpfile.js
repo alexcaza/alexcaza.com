@@ -1,10 +1,8 @@
 const gulp       = require('gulp'),
       sass       = require('gulp-sass'),
       webpack    = require('gulp-webpack'),
-      uglify     = require('gulp-uglify'),
       minify     = require('gulp-minify-css'),
       rename     = require('gulp-rename'),
-      concat     = require('gulp-concat'),
       autoprefix = require('gulp-autoprefixer'),
       imagemin   = require('gulp-imagemin'),
       pngquant   = require('imagemin-pngquant');
@@ -64,7 +62,7 @@ gulp.task('minify', ['sass'], () => {
         .pipe(gulp.dest('dist/css/'));
 });
 
-gulp.task('default', ['images', 'concat', 'minify']);
+gulp.task('default', ['images', 'webpack', 'minify']);
 
 gulp.task('watch', () => {
     gulp.watch('src/scss/**/*.scss', ['sass', 'minify']);
