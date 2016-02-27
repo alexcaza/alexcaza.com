@@ -4,7 +4,7 @@ export default class Http {
                 let client = new XMLHttpRequest();
 
                 // Change to location.origin on launch
-                client.open('GET', window.location + 'posts.php');
+                client.open('GET', window.location + 'posts.php', true);
                 client.send();
 
                 client.onload = function() {
