@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "root";
+$username = "lazyperf_acwd";
+$password = "[[g0tr00t67]]";
 $dbname = "lazyperf_acblog";
 
 // Create connection
