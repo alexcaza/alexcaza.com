@@ -34,7 +34,7 @@ gulp.task('webpack', () => {
                         }
                     },
                     {
-                        test: /.*\/app\/*.\.js$/,
+                        test: /\app.js$/,
                         exclude: /(node_modules|bower_components|tests|src)/,
                         loader: 'uglify'
                     }
