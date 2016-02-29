@@ -2,9 +2,9 @@ import Http from './classes/Http';
 import { modifyClassList } from './functions/modifyClassList';
 
 const http = new Http();
+const blogPost = document.getElementById('blog-post');
 
 var init = (function() {
-    const blogPost = document.getElementById('blog-post');
     const popout = document.getElementsByClassName('popout')[0];
     const photoBtn = document.getElementsByClassName('profile-photo')[0];
 
