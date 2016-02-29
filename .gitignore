@@ -3,3 +3,11 @@
 .DS_Store
 dist/
 *.sql
+.htaccess*
+addon-domains/
+blog/
+cgi-bin/
+etoiledunord/
+parking/
+npm-debug.log
+quickmeditation.info/
