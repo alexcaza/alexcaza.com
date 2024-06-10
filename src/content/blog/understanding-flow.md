@@ -1,0 +1,40 @@
+---
+title: "Understanding Flow"
+created_date: "2022-05-03"
+description: "After a day of productivity guilt and anxiety, I tried to understand how Flow works for me."
+---
+
+I had an epiphany yesterday. I was struggling to write, and I found myself trying to climb over a mental wall but was met with a lot of resistance. Resistance that caused me to start catastrophizing. I began questioning my ability as a writer. Eventually, after far too many minutes of pushing, I realized I was fighting a losing battle and I began asking myself: _Why? What’s causing me to feel this way?_
+
+This feeling isn’t new for me. It often comes up on days where I don’t have clearly defined work, or I didn’t take the time to plan out my day well enough, but I feel the need to do accomplish something. Thankfully, [I’d written](/personal/on-creating-and-catastrophizing) about the last time I felt this way at the beginning of 2022.
+
+Past me had some interesting insights. I was hoping there might be some clues to the thought patterns that cause this to happen, and I was right. Towards the bottom of the entry, I briefly mentioned that a lack of flow was preventing me from feeling fulfilled that day.
+
+Over the last couple of years, I’ve created this association that flow states are the ultimate sign of a _perfect day._ I’m pretty sure I made that connection when my main role was as a software engineer. The best days would be 4 hours of uninterrupted coding, only coming up for water or to empty my bladder. I still have ample opportunity for flow in my days, despite programming less consistently. So, why is it that some days I can find flow, and other days I can’t?
+
+Seeing as not having any answers to these questions was bothering me, I did was I do best; distract myself through research. I had this vague memory of adding a book to my Goodreads list a few years ago that touched on the topic. After typing “flow” in the search box, I was presented with Finding Flow by Mihaly Csikszentmihalyi. As soon as I saw the author’s name, I knew it was the right book. I distinctly remember their name being impossible for me to commit to memory when I originally added it.
+
+I knew wouldn’t be able to read the entire book before the day was over. When it comes to reading, I’m very much the tortoise, not the hair. I decided to try and find some summaries of the concepts in the book instead. That’s when I came across [Mihaly’s 2008 TED talk](https://youtu.be/fXIeFJCqsPs).
+
+About 3/4 of the way through the talk, Mihaly puts a graphic on the screen that summarizes the emotional states surrounding flow, and the delicate balance to get there.
+
+As soon as I saw the graphic, It was like the clattering in my brain stopped, and suddenly everything fit perfectly together. I’m pretty sure I turned to my cat in that moment and said, “No wonder I get frustrated! I’m bouncing between high arousal, anxiety and boredom but never landing in Flow!”
+
+<figure>
+  <img src="/assets/personal/understanding-flow/flow-figure.png" alt="A graph with the Y axis as Challenge and the X axis as Skill. Flow sits in the top right of the graph, which means it requires high challenge and high skill to be achieved."/>
+  <figcaption>Figure 1: This is the graphic for those who don’t want to watch the video. I highly recommend doing watching it anyway.</figcaption>
+</figure>
+
+I’ve always undulated between anxiety and boredom while working. I just assumed it was because of my generalized anxiety disorder that I worked that way. The days where my anxiety was higher, focus would be more difficult. The days my anxiety wasn’t as high, I’d be left with a sense of boredom and monotony. It was only after seeing the graphic that I realized that my anxiety disorder might not be to blame after all.
+
+Yesterday was a perfect example of these extremes since I felt both of them. Thanks to the graph, I’ve been able to plot where I was emotionally, and why the difficulty of work, or the lack of skill, was causing those states. Some of the emotions were caused by self-doubt, some of them due to not taking the time to properly set myself up for success by planning ahead. It also made me honestly look at the work I was doing. I started to question if I was tackling something just far enough out of my skill zone to cause problems instead of growth.
+
+I really began to notice my frustration when I sat down to try and write. It was the mid-afternoon, my brain was empty and I was slumping hard. Nothing was coming out. I had no ideas. I couldn’t figure out what I was trying to say. I felt like a complete and total failure. My forehead and temples were tense, my self-talk was atrocious, but I didn’t want to give up. I couldn’t bring myself to step away. As expected, that backfired. It just made the problem worse. You can’t work your way out of a lack of energy.
+
+Mihaly’s talk snapped me out of my funk. It dawned on me that I was trying to write without a clear understanding of what I was trying to say, on a topic I really haven’t thought much about in general, and at a time of day where I’m least effective. I had stacked the deck against myself. It put me in the top left of the graph, bouncing between anxiety and worry.
+
+With this knowledge in mind, I now have a toolkit to look at when work isn’t sitting right. I can now as myself: “What can be done to get into Flow? Do I have the energy? If not, why bother pushing? Am I lacking information? Do I have the energy to go and get it?”
+
+Hopefully I’ll be able to keep this information top of mind going forward. I may have to print out that graph and frame it within view of wherever I’m working. It’ll be a great reminder to check-in with myself and unpack what I’m resisting instead of trying to push through an obstacle in the wrong way.
+
+_This was written as part of my 52 weeks of creation. You can read [the entry](/52-weeks/2022/w21) if you're curious about why I wrote this essay._

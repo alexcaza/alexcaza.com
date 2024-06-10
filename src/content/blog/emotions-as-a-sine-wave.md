@@ -1,0 +1,47 @@
+---
+title: "Emotions as a sine wave"
+created_date: "2023-03-08"
+description: "My mental model for thinking about emotional states, and the effects of medication and mindfulness on them."
+---
+
+Emotional states are like a sine waves. They have peaks and valleys throughout the day, and throughout your life.
+
+They can be other types of waves, too, depending on the intensity and severity of the emotions. But for simplifying the analogy, we'll stick with smooth sines.
+
+There are 2 dimensions when looking at the emotional sine wave:
+
+1. Amplitude
+2. Frequency
+
+Amplitude is the peak of the emotion in positive or negative integers.
+
+Frequency is how often those spikes occur close to each other.
+
+<figure>
+  <img src="/assets/personal/emotions-as-a-sine-wave/ideal-day.png" alt="A fairly smooth sine wave with low frequency and low amplitude"/>
+  <figcaption>A typical day for non-anxious folks</figcaption>
+</figure>
+
+It's impossible for a day to not have ups and downs. Even though we'd like to have days where the line is perfectly flat, or super close to the top of the chart.
+
+The chart above is likely close to an ideal day for most people. Not too many highs or lows.
+
+<figure>
+  <img src="/assets/personal/emotions-as-a-sine-wave/turbulent-day.png" alt="A very turbulent sine wave with high frequency and high amplitude"/>
+  <figcaption>A turbulent day; typical of someone with high anxiety</figcaption>
+</figure>
+
+This might be a day where things are rough. Lots of ups and downs. Lots of stress followed by extreme drops in mood that leave you exhausted and sad.
+
+<figure>
+  <img src="/assets/personal/emotions-as-a-sine-wave/with-compression.png" alt="A fairly turbulent sine wave with medium frequency and medium amplitude with 2 green dotted lines acting as an emotional limiter"/>
+  <figcaption>Adding a compressor; green dotted lines act as an emotional cutoff</figcaption>
+</figure>
+
+Taking medication, and practicing certain mindfulness techniques, can act as a [compressor](https://en.wikipedia.org/wiki/Dynamic_range_compression) to your emotional state. Typically, medications act more quickly and reliably than mindfulness techniques.
+
+Mindfulness techniques are wonderful on their own, and if you can get closer to chart 1 on average with them alone, you might not need medication. However, if the techniques alone aren't working, combining medication with those mindfulness techniques can deepen your practice, making it more possible in the future.
+
+The medication acting as a compressor to your emotional sine wave gives you back the energy lost on those peaks and valleys to put towards a deeper practice.
+
+_Sine wave visualizations built using this ObservableHQ dashboard: [https://observablehq.com/@haakenlid/real-time-sine-wave-plotting](https://observablehq.com/@haakenlid/real-time-sine-wave-plotting)_
