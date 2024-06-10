@@ -1,0 +1,12 @@
+[[language]]
+name = "astro"
+scope = "source.astro"
+injection-regex = "astro"
+file-types = ["astro"]
+roots = []
+language-servers = ["astro"]
+
+[language-server.astro]
+command = "./node_modules/.bin/astro-ls"
+args = ["--stdio"]
+config = { typescript.serverPath = "./node_modules/.bin/typescript-language-server", typescript.tsdk = "./node_modules/typescript/lib" }
