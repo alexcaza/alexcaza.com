@@ -1,55 +1,74 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE, mkHomeLink, mkNowLink, mkBlogLink } from '../consts';
+import { mkHomeLink, mkNowLink, mkBlogLink, mkResumeLink } from '../consts';
 ---
 
 <header>
 	<nav>
-		<h2><a href={mkHomeLink()}>{SITE_TITLE}</a></h2>
-		<div class="internal-links">
+		<div>
+			<a class="home-link" href={mkHomeLink()}>alex<br>caza</a>
+		</div>
+		<div>
 			<HeaderLink href={mkNowLink()}>now</HeaderLink>
 			<HeaderLink href={mkBlogLink()}>thoughts</HeaderLink>
+			<HeaderLink href={mkResumeLink()}>resume</HeaderLink>
 		</div>
 	</nav>
 </header>
 <style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
 	nav {
 		display: flex;
+		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
+		max-width: 580px;
+
+		@media (max-width: 743px) {
+			padding-bottom: 1.5rem;
+		}
+
+		@media (min-width: 744px) {
+			padding-bottom: 3.75rem;
+		}
 	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
+
+	nav div {
+		flex-direction: row;
+	}
+
+	nav a:not(.home-link) {
+
+		@media (max-width: 743px) {
+			font-size: 1rem;
+			padding-inline: 0.51rem;
+		}
+
+		@media (min-width: 744px) {
+			font-size: 1.5rem;
+			padding-inline: 0.93rem;
+		}
+	}
+
+	.home-link {
+		font-weight: 900;
 		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
+
+		@media (prefers-color-scheme: light) {
+			color: var(--main-text);
+		}
+
+		@media (prefers-color-scheme: dark) {
+			color: var(--main-text-light);
+		}
+
+		@media (max-width: 743px) {
+			font-size: 2rem;
+			line-height: 18px;
+		}
+
+		@media (min-width: 744px) {
+			font-size: 3rem;
+			line-height: 26px;
 		}
 	}
 </style>

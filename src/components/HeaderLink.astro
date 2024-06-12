@@ -14,12 +14,13 @@ const isActive = href === pathname || href === '/' + subpath?.[0];
 	<slot />
 </a>
 <style>
-	a {
-		display: inline-block;
-		text-decoration: none;
-	}
 	a.active {
-		font-weight: bolder;
-		text-decoration: underline;
+		@media (prefers-color-scheme: light) {
+			color: var(--visited-links);
+		}
+
+		@media (prefers-color-scheme: dark) {
+			color: var(--visited-links-light);
+		}
 	}
 </style>
