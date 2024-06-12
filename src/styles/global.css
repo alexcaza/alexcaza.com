@@ -169,8 +169,32 @@ article {
 	}
 }
 
-p {
+ul,
+ol {
+	padding-left: 2rem;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: number;
+}
+
+li {
+	display: list-item;
+}
+
+p,
+li {
 	line-height: 140%;
+}
+
+ul,
+ol,
+p {
+	padding-block: 0.4rem;
 }
 
 a {
@@ -187,6 +211,10 @@ a {
 	@media (prefers-color-scheme: dark) {
 		color: var(--links-light);
 	}
+}
+
+section {
+	margin-bottom: 1.2rem;
 }
 
 .content-container {
