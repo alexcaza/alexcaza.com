@@ -5,9 +5,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
-type Props = CollectionEntry<'personal'>['data'];
+type Props = CollectionEntry<'personal'>['data'] & {wordCount: number};
 
-const { title, description, created_date } = Astro.props;
+const { title, description, created_date, wordCount } = Astro.props;
 ---
 
 <html lang="en">
@@ -30,8 +30,9 @@ const { title, description, created_date } = Astro.props;
 			<article>
 				<div class="prose">
 					<div class="title">
-						<div class="date">
+						<div class="metadata">
 							<FormattedDate date={created_date} />
+							<span>{wordCount} words</span>
 						</div>
 						<h1>{title}</h1>
 						<hr />
@@ -43,3 +44,13 @@ const { title, description, created_date } = Astro.props;
 		<Footer />
 	</body>
 </html>
+<style>
+	.metadata {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: .8rem;
+		font-size: 1rem;
+	}
+</style>

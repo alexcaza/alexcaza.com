@@ -118,6 +118,16 @@ h2,
 h3,
 h4,
 h5,
+h6 {
+	line-height: 1.1;
+	padding-block: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,
 strong {
 	font-weight: 800;
@@ -171,7 +181,13 @@ article {
 
 ul,
 ol {
-	padding-left: 2rem;
+	@media (max-width: 743px) {
+		padding-left: 1.3rem;
+	}
+
+	@media (min-width: 744px) {
+		padding-left: 2rem;
+	}
 }
 
 ul {
@@ -215,6 +231,30 @@ a {
 
 section {
 	margin-bottom: 1.2rem;
+}
+
+code {
+	font-family: 'Courier New', Courier, monospace;
+	padding-inline: 0.2rem;
+	padding-block: 0.15rem;
+
+	@media (max-width: 743px) {
+		font-size: 0.7rem;
+	}
+
+	@media (min-width: 744px) {
+		font-size: 1rem;
+	}
+
+	@media (prefers-color-scheme: light) {
+		color: var(--main-text-light);
+		background-color: var(--bg-dark);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: var(--main-text);
+		background-color: var(--bg);
+	}
 }
 
 .content-container {
