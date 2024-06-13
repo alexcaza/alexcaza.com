@@ -1,0 +1,506 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<html lang="en">
+	<head>
+		<BaseHead title={"Now"} description="" />
+	</head>
+
+	<body>
+		<Header />
+    <main id="resume" class="content-container">
+      <article id="intro">
+        <div class="resume-download-link">
+          <a class="resume-link" href="/assets/resume/alex-caza-resume-2024.pdf"
+            >Download as PDF</a
+          >
+        </div>
+        <h1>Hey, I'm Alex 👋</h1>
+        <p class="intro-kicker">I'm a senior full-stack product engineer.</p>
+        <p>
+          I have over a decade of experience building things for the web. Alongside
+          developing software, I’ve played a key role in product thinking/management
+          and have always worked extremely close with designers to ensure users get
+          the best experience possible.
+        </p>
+
+        <p>
+          Lacking a formal education, I've had to consistently push myself out of my
+          comfort zone to grow and learn. I love to challenge what I think I know, and
+          be challenged to improve by my peers. I'm a big believer in the growth
+          mindset, and work best in teams where that's the default way of thinking.
+        </p>
+
+      </article>
+
+      <article id="contact">
+        <div class="callout">
+          <p class="callout-title">Say hi!</p>
+          <div class="contact-info">
+            <a href="mailto:alex@alexcaza.com">alex@alexcaza.com</a>
+            <a href="tel:+15147429796">(514) 742-9796</a>
+            <a href="https://linkedin.com/alexcaza">linkedin.com/alexcaza</a>
+            <a href="https://github.com/alexcaza">github.com/alexcaza</a>
+            <a href="https://gitlab.com/alexcaza">gitlab.com/alexcaza</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="experience">
+        <h1>Experience</h1>
+        <section class="company">
+          <div class="experience-info">
+            <div class="role">
+              <h2>
+                <a href="https://unsplash.com/">Unsplash</a> | Senior Product Engineer
+              </h2>
+              <span class="timeline">Jan 2023—Present</span>
+            </div>
+            <p>
+              Unsplash is one of the largest free (as in beer) stock photography
+              websites. If you've been on the internet for any amount of time from
+              2015 onwards, you've probably seen an image from their catalog!
+            </p>
+            <p>I've also been <a href="https://unsplash.com/@alexcaza">a contributor</a> since 2021.</p>
+          </div>
+            <h3>Tech used</h3>
+            <ul class="tech-stack">
+              <li>Typescript</li>
+              <li>fp-ts</li>
+              <li>React + Redux</li>
+              <li>RxJS</li>
+              <li>Express</li>
+              <li>fp-ts-routing</li>
+            </ul>
+          </div>
+        </section>
+        <section class="company">
+          <div class="experience-info">
+            <div class="role">
+              <h2>
+                <a href="https://fluent.co/">Fluent</a> | Founding Product Engineer
+              </h2>
+              <span class="timeline">May 2021–Jan 2023</span>
+            </div>
+            <p>
+              Fluent is a browser extension that helps you learn new vocabulary as
+              you browse the web.
+            </p>
+          </div>
+          <div class="accomplishments">
+            <div>
+              <section class="department-breakdown">
+                <div class="department engineering">
+                  <h3>Engineering</h3>
+                  <ul class="work-done">
+                    <li>
+                      Re-architected the extension messaging system which resulted
+                      in a 20x improvement in speed while maintaining backwards
+                      compatibility
+                    </li>
+                    <li>
+                      Built and owned core levelling algorithm and mechanics in
+                      version 2.0 of the product
+                    </li>
+                    <li>
+                      Built prototype of an SMS translation quiz using Twilio and
+                      Serverless so users could learn outside of Fluent's core
+                      extension
+                    </li>
+                  </ul>
+                </div>
+                <div class="department product">
+                  <h3>Product</h3>
+                  <ul class="work-done">
+                    <li>
+                      Worked closely with the Chief of Product to help shape product
+                      direction
+                    </li>
+                    <li>
+                      Led user research projects to validate potential features,
+                      gather customer insights and inform product direction
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <h3>Tech used</h3>
+            <ul class="tech-stack">
+              <li>Styled Components</li>
+              <li>Typescript</li>
+              <li>GraphQL</li>
+              <li>React + Redux</li>
+              <li>RxJS</li>
+              <li>Express</li>
+              <li>TypeORM</li>
+              <li>Postgresql</li>
+              <li>CouchDB</li>
+              <li>Twilio</li>
+              <li>Serverless + NodeJS</li>
+              <li>Dash + Plotly</li>
+              <li>Jupyter</li>
+            </ul>
+          </div>
+        </section>
+        <section class="company">
+          <div class="experience-info">
+            <div class="role">
+              <h2>
+                <a
+                  href="https://web.archive.org/web/20191206104308/https://firstbloom.co/"
+                  >Firstbloom</a
+                >
+                | Co-founder/CEO
+              </h2>
+              <span class="timeline">2018-2021</span>
+            </div>
+            <p>
+              Firstbloom was a mobile app to help people find, brew and rate
+              specialty coffee.<br />Think Vivino or Untappd, but for coffee.
+            </p>
+          </div>
+          <div class="additional-info no-print">
+            <figure class="captioned-video">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/dPEYa1LoLZk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+              <figcaption>Video of an early version of the app.</figcaption>
+            </figure>
+            <figure class="captioned-image">
+              <a href="/assets/resume/Firstbloom-Final-Screens-Sample.jpg">
+                <img
+                  width="363"
+                  height="178"
+                  src="/assets/resume/Firstbloom-Final-Screens-Sample.jpg"
+                  alt="Mockups of Firstbloom running on an iPhone 6s"
+                />
+              </a>
+              <figcaption>Screenshots of the app from the early days.</figcaption>
+            </figure>
+          </div>
+          <div class="accomplishments">
+            <div>
+              <section class="department-breakdown">
+                <div class="department engineering">
+                  <h3>Engineering</h3>
+                  <ul class="work-done">
+                    <li>
+                      Architected and maintained 3 code bases consisting of a React
+                      Native mobile app, Ruby on Rails REST API, and an Angular 2+
+                      roaster platform
+                    </li>
+                    <li>
+                      Built the
+                      <a
+                        href="https://coffeeadastra.com/2019/07/23/how-coffee-varietals-and-processing-affect-taste-2/"
+                        >largest data set</a
+                      >
+                      of coffee tasting notes and coffee region information known to
+                      the industry at the time
+                    </li>
+                    <li>
+                      Built a serverless web-scraper that would pull the latest
+                      information on partners' coffee offerings, greatly reducing
+                      the time needed to add coffees to our app
+                    </li>
+                  </ul>
+                </div>
+                <div class="department product">
+                  <h3>Product</h3>
+                  <ul class="work-done">
+                    <li>Led user interviews with coffee lovers and roasters</li>
+                    <li>
+                      Setup product management processes for development and data
+                      quality
+                    </li>
+                    <li>
+                      Analyzed user behaviour through Amplitude and custom Jupyter
+                      dashboard
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <h3>Tech used</h3>
+            <ul class="tech-stack">
+              <li>SASS + BEM</li>
+              <li>Tailwind</li>
+              <li>Angular 2+</li>
+              <li>RxJS</li>
+              <li>React Native + Mobx</li>
+              <li>Typescript</li>
+              <li>StimulusJS + Turbo</li>
+              <li>Ruby on Rails</li>
+              <li>Postgresql</li>
+              <li>Serverless + NodeJS</li>
+              <li>Plotly</li>
+              <li>Jupyter</li>
+            </ul>
+          </div>
+        </section>
+        <section class="company">
+          <div class="experience-info">
+            <div class="role">
+              <h2>
+                <a href="https://sportlogiq.com">Sportlogiq</a> | Senior Front-end
+                Engineer
+              </h2>
+              <span class="timeline">2016–2019</span>
+            </div>
+            <p>
+              Sportlogiq is one of the leading sports analytics platforms. As
+              employee 15 I was able to affect the shape of their early products and
+              culture.
+            </p>
+          </div>
+          <div class="accomplishments">
+            <h3>Engineering</h3>
+            <ul class="work-done">
+              <li>
+                Mentored junior developers through code reviews, pair programming
+                and internal talks on key technologies in our stack
+              </li>
+              <li>
+                Led the architecture of their soccer analytics single-page web
+                application
+              </li>
+              <li>
+                Co-architected the front-end to their core hockey analytics
+                single-page web application that generated tens of millions in
+                revenue
+              </li>
+            </ul>
+            <h3>Tech used</h3>
+            <ul class="tech-stack">
+              <li>SASS + BEM</li>
+              <li>Canvas</li>
+              <li>Angular 2+</li>
+              <li>Ngrx</li>
+              <li>RxJS</li>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>HLS</li>
+            </ul>
+          </div>
+        </section>
+        <section class="company">
+          <div class="experience-info">
+            <div class="role">
+              <h2>Koodzo | Lead Product Engineer</h2>
+              <span class="timeline">2015–2016</span>
+            </div>
+            <p>
+              Koodzo was a marketplace for influencers and content creators to find
+              brand deals with larger businesses. The idea behind the platform was
+              to help smaller creators get paid for posting or reposting content
+              that companies would create, and take part in ad campaigns.
+            </p>
+          </div>
+          <div class="accomplishments">
+            <section class="department-breakdown">
+              <div class="department engineering">
+                <h3>Engineering</h3>
+                <ul class="work-done">
+                  <li>
+                    Lead the architecture, design and user-experience of their
+                    marketplace single-page application
+                  </li>
+                  <li>
+                    Implemented agile workflows that greatly increased product
+                    velocity
+                  </li>
+                </ul>
+              </div>
+              <div class="department product">
+                <h3>Product</h3>
+                <ul class="work-done">
+                  <li>
+                    Lead interviews with business partners and influencers to define
+                    product direction
+                  </li>
+                  <li>Designed the user interface for the influencer platform</li>
+                </ul>
+              </div>
+            </section>
+            <h3>Tech used</h3>
+            <ul class="tech-stack">
+              <li>AngularJS</li>
+              <li>PHP / Laravel</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </section>
+        <section class="company">
+          <div class="role">
+            <h2>Freelancing | Web Development & UI/UX</h2>
+            <span class="timeline">2008–2019</span>
+          </div>
+          <p>
+            Built and designed websites for clients in various industries; including
+            fashion, music, construction and video conferencing
+          </p>
+
+          <p>
+            Most sites were built in the traditional LAMP stack of the day, or were
+            using WordPress themes (custom or modified)
+          </p>
+        </section>
+      </article>
+
+      <article id="hobbies">
+        <h1>Hobbies & Interests</h1>
+        <p>
+          Outside of programming and playing around with new languages, frameworks
+          and paradigms, you’ll often find me
+          <a href="/personal">writing blog posts or essays</a>,
+          <a href="https://instagram.com/graingiant">making photographs</a>, cooking
+          & baking or calisthenics training.
+        </p>
+      </article>
+    </main>
+		<Footer />
+	</body>
+</html>
+<style>
+#resume figure {
+  margin: 0;
+}
+
+#resume .captioned-video,
+#resume .captioned-image {
+  width: 50%;
+  padding: 5px;
+}
+
+#resume .captioned-video iframe {
+  height: 87%;
+  width: 100%;
+}
+
+#resume #intro {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#resume #intro .resume-download-link {
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#resume #intro h1 {
+  margin-bottom: 0.4rem;
+  padding-bottom: 0;
+}
+
+#resume #intro .intro-kicker {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+#resume #contact {
+  margin-bottom: 40px;
+}
+
+#resume .contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#resume .contact-info > a {
+  padding: 3px;
+  margin: 3px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#resume .company:not(:last-of-type) {
+  border-bottom: 1px solid var(--main-text);
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+
+#resume h2 {
+  line-height: initial;
+  padding-bottom: 2px;
+}
+
+#resume .role {
+  padding-bottom: 15px;
+  /* Ideally we shouldn't have to reset this */
+  margin-bottom: 0;
+}
+
+#resume .role .timeline {
+  display: inline-block;
+  color: var(--accent-txt-color);
+  border-left: 3px solid var(--main-text);
+  padding-left: 0.5rem;
+}
+
+#resume .additional-info {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+#resume .department-breakdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 0;
+}
+
+#resume .department {
+  margin-top: 5px;
+  padding-top: 15px;
+  padding-right: 15px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#resume .department:last-of-type {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#resume .work-done li {
+  margin-bottom: 1rem;
+}
+
+#resume .tech-stack {
+  list-style: none;
+  width: auto;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#resume .tech-stack li {
+  padding: 3px;
+  padding-left: 1rem;
+  margin: 5px;
+  font-size: 0.8rem;
+  border-left: 3px solid var(--main-text);
+  border-bottom: 3px solid var(--main-text);
+}
+
+#resume li {
+  padding-right: 20px;
+}
+
+#resume #hobbies {
+  margin-bottom: 100px;
+}
+</style>
