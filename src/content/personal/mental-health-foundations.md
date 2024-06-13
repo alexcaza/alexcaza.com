@@ -38,7 +38,7 @@ I had a really hard time accepting that. I had been putting in the work, a lot o
 
 Like I mentioned above, I had been putting off meds, but this was my breaking point. My physical health was going down fast, too. Muscle wasn't staying on. I wasn't eating enough. It was just a bad time. So, I decided to give anti-depressants a shot. Within a few weeks of starting them, I felt an immediate difference in my overall mood. Except, again, around meal-time. It wasn't as bad—no panic attacks—but all the rest stayed. So, I started an elimination diet. I very quickly discovered it was gluten. I've cut it out of my diet now for about 6–7 months, and I feel like a new human. My general anxiety is so much lower, I'm able to put on muscle and I can eat with a hell of a lot more confidence. I can also _very easily_ tell when gluten has been around my food. All the old symptoms come back.
 
-<h2 id="foundations"><a href="#foundations">Foundations</a></h2>
+<h2 id="foundations">Foundations</h2>
 These are the things I do with a high-degree of consistency and that, when missed, create a fairly rapid decline in my wellbeing.
 
 ### 1. Sleep

@@ -257,9 +257,32 @@ code {
 	}
 }
 
+hr {
+	border-style: solid;
+	margin-block: 0.25rem;
+
+	@media (prefers-color-scheme: light) {
+		border-color: var(--bg-dark);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		border-color: var(--bg);
+	}
+}
+
 .content-container {
 	width: 100%;
 	max-width: 580px;
+}
+
+.print-only {
+	@media print {
+		display: flex !important;
+	}
+
+	@media screen {
+		display: none !important;
+	}
 }
 
 .sr-only {

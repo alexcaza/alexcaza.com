@@ -55,18 +55,18 @@ const posts = (await getCollection(Collections.blog)).sort(
 
 	.article {
 		display: flex;
-	}
 
-	.article a { 
-		text-decoration: none;
-		color: var(--main-text);
+		a { 
+			text-decoration: none;
+			color: var(--main-text);
 
-		&:hover {
-			opacity: 1;
-		}
+			&:hover {
+				opacity: 1;
+			}
 
-		&:hover h2 {
-			text-decoration: underline;
+			&:hover h2 {
+				text-decoration: underline;
+			}
 		}
 	}
 

@@ -1,0 +1,85 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+---
+<html lang="en">
+	<head>
+		<BaseHead title={"Now"} description="" />
+	</head>
+
+	<body>
+		<Header />
+		<main class="content-container">
+		  <article>
+				<section class="metadata">
+			    <p>
+			      This is a <a href="https://nownownow.com/about">now page</a>, and if you
+			      have your own site, you should make one too!
+			    </p>
+			    <p>
+			      This page was last updated <FormattedDate date={new Date()} /> from Montreal, Canada.
+			    </p>
+				</section>
+				<hr />
+		    <section>
+		      <h1 id="nutrition">Diet & Nutrition</h1>
+		      <p>After a few years of trying to figure out why my anxiety had been steadily getting worse and why eating seemed to be causing me distress, I finally figured out the issue!</p>
+		      <p>After starting anti-depressants, and the background anxiety was removed, I was still noticing pain, fatigue, anxiety and extreme bloating after meal-time. Turns out, I have celiac disease! Now that I follow a strict gluten-free diet, all of my symptoms have gone away. Barring the occasional glutening, which brings them all right back.</p>
+		    </section>
+		    <section>
+		      <h1 id="photography">Reconnecting with photography</h1>
+		      <p>
+		        After YouTube sent me down the film photography rabbit hole, I got my
+		        parent's old 35mm cameras and went all-in. Having shot on digital since
+		        I was 13, it's been a wonderful change.
+		      </p>
+		      <p>
+		        The slow, imperfect and physical nature of it all really spoke to me.
+		        Much like how manual pour overs and pulling espresso shots require
+		        focused attention, so does film photography.
+		      </p>
+		      <p>
+		        You can check out some of my work on Instagram &rarr;
+		        <a href="https://instagram.com/graingiant">@graingiant.</a>
+		      </p>
+		      <p>
+		        I've also started posting my work to Unsplash &rarr;
+		        <a href="https://unsplash.com/@alexcaza">@alexcaza</a>
+		      </p>
+		    </section>
+		    <section>
+		      <h1 id="fitness">Bouldering</h1>
+		      <p>
+		        I had gone bouldering a few times many, many years ago and greatly
+		        enjoyed it. For whatever reason, it never stuck. It wasn't until my
+		        brother-in-law fell deep into the rabbit hole, and couldn't shut up
+		        about it, that I tried it again. I've only been going once a week, but
+		        I'm hooked. It's a wonderful activity.
+		      </p>
+		    </section>
+		    <section>
+		      <h1 id="automation">Home Automation</h1>
+		      <p>
+		        After moving to a slightly larger place, I've gone around and started
+		        adding smart accessories to various parts of my apartment. Mostly smart
+		        lights. I can safely say, I'm hooked and totally get the IoT hype. I'm
+		        currently using HomeKit (via Homebridge) but suspect I'll switch over to
+		        Home Assistant sometime soon.
+		      </p>
+		    </section>
+		  </article>
+			<Footer />
+		</main>
+	</body>
+</html>
+<style>
+	.metadata {
+		margin-bottom: 0.5rem;
+
+		p,a {
+			font-size: 0.875rem;
+		}
+	}
+</style>
