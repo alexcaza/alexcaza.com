@@ -1,0 +1,55 @@
+
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en" style="height: 100%;">
+	<head>
+		<BaseHead title={"Alex Caza | Something went wrong"} description={SITE_DESCRIPTION} />
+	</head>
+	<body style="height: 100%;">
+		<Header />
+		<main>
+      <span style="">500</span>
+      <div>
+	      <h1>Something went really wrong... Try again in a bit? 😅</h1>
+	      <em style="font-size: .8rem; padding-top: 0.3rem;">You can click on one of the links in the nav to try another page.</em>
+      </div>
+    </main>
+		<Footer />
+	</body>
+</html>
+<style>
+	main {
+		height: calc(100% - 3.75rem);
+
+		@media (max-width: 743px) {
+			flex-direction: column;
+			justify-content: center;
+			row-gap: 1rem;
+		}
+
+		@media (min-width: 744px) {
+			flex-direction: row;
+			align-items: center;
+			column-gap: 1rem;
+		}
+	}
+
+	span {
+		font-size: 5rem;
+		padding-right: 1rem;	
+
+		@media (max-width: 743px) {
+		border-bottom: 1px solid var(--main-text);
+		}
+
+		@media (min-width: 744px) {
+		border-right: 1px solid var(--main-text);
+		}
+	}
+</style>
