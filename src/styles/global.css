@@ -106,10 +106,12 @@ body {
 body {
 	@media (max-width: 743px) {
 		padding: 20px;
+		font-size: 0.875rem;
 	}
 
 	@media (min-width: 744px) {
 		padding: 40px;
+		font-size: 1.25rem;
 	}
 }
 
@@ -162,21 +164,8 @@ h5 {
 	font-size: 1rem;
 }
 
-h6,
-p,
-li,
-a,
-footer,
-div,
-section,
-article {
-	@media (max-width: 743px) {
-		font-size: 0.875rem;
-	}
-
-	@media (min-width: 744px) {
-		font-size: 1.25rem;
-	}
+h6 {
+	font-size: 0.875rem;
 }
 
 ul,
