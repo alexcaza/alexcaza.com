@@ -2,7 +2,7 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Alex Caza';
-export const SITE_DESCRIPTION = 'Product engineer, photographer, writer.';
+export const SITE_DESCRIPTION = "I'm a product engineer with over 15 years experience. I'm currently exploring building sustainable product processes, businesses and what it means to be a user-centred engineer.";
 
 // TODO: There's probably a better way to make collections typesafe
 export enum Collections {
