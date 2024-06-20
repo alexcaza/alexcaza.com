@@ -6,16 +6,27 @@ const today = new Date();
 	&copy; {today.getFullYear()} Alex Caza. All rights reserved. | <a href="https://github.com/alexcaza/alexcaza.com">Statically generated</a> in Montreal, Canada | <a href="https://forms.gle/pBhryoMzfqErZAuH6">Contact me</a>
 </footer>
 <style>
-footer, footer a {
-	font-size: 12px;
-}
-
 footer {
 	margin-top: 1rem;
 	flex-direction: row;
+
+	@media (max-width: 743px) {
+		justify-content: center;
+		font-size: 0.5rem;
+	}
+
+	@media (min-width: 744px) {
+		font-size: 1rem;
+	}
 }
 
 footer a {
+	@media (max-width: 743px) {
+	padding-inline: 0.1rem;
+	}
+
+	@media (min-width: 744px) {
 	padding-inline: 0.2rem;
+	}
 }
 </style>
