@@ -45,13 +45,13 @@ The first thing that came to mind was plotting this on a radar chart of sorts. T
 
 ### Confusion Radar Chart
 
-![confusion-radar-chart.jpeg](/assets/personal/curiosity-vs-confusion/confusion-chart.jpeg)
+![confusion-radar-chart.jpeg](../../assets/personal/curiosity-vs-confusion/confusion-chart.jpeg)
 
 What seems to lead to confusion is a high level of uncertainty, low job importance, low energy and a lack of clear paths to solutions. People who’re presented with problems that don’t have a clear enough path to resolution will end up being frustrated. That moment of uncertainty likely won’t shift to a moment of delight, it’ll just leave them deflated and without a sense of direction. “What’s next? Where do I go? Why is this getting in my way?” The big thing I’ve noticed lately is that people tend to be more frustrated, _especially when the importance of the job is low_. The lower the importance of the job, the less likely people are willing to jump through hoops. Great examples of this are signing up before using a product. The sign-up process has to be directly proportional to the effort of the job they’re trying to complete.
 
 ### Curiosity Radar Chart
 
-![curiosity-radar-chart.jpeg](/assets/personal/curiosity-vs-confusion/curiosity-chart.jpeg)
+![curiosity-radar-chart.jpeg](../../assets/personal/curiosity-vs-confusion/curiosity-chart.jpeg)
 
 Moments of uncertainty that lead to curiosity typically have **less uncertainty that you might think.** Often times there’s an _idea of a path to resolution_ that’s already present. In cases where that isn’t true, but the job is completed, it’s likely because the importance of the job or the energy levels are extremely high.
 

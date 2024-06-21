@@ -39,7 +39,7 @@ I’ll start with the Databases since each page is built based on them.
 
 ### Goals
 
-![Goals___Board_view__Doing_.png](/assets/personal/simplicity-in-life-management/Goals___Board_view__Doing_.png)
+![Goals___Board_view__Doing_.png](../../assets/personal/simplicity-in-life-management/Goals___Board_view__Doing_.png)
 
 Goals are “end states” I’d like to achieve. The way I define goals isn’t unique, but what having them defined in this way lets me do is associate each one to other tasks and goals. This heirarchy lets me understand what each component is building towards. I’ve tried to set a limit for myself by only allowing 3 goals in each time horizon and domain (work or personal). This constraint will reduce the chances I have too much on my plate at a given time. It forces me to prioritize based on what’s most important in my life. My goals are allowed to change at any time. After all, I’m human, and our needs have to adapt. If I finish a goal _before_ the time limit, I **will not** add a new one. That just means I have more time to focus on the other things. The same goes for removing a goal if I decide it no longer serves a purpose.
 
@@ -49,7 +49,7 @@ Let’s take my “Yearly” goal of “52 Weeks of Creation” for example. Eve
 
 **Anatomy of a goal**
 
-![Goals___All.png](/assets/personal/simplicity-in-life-management/Goals___All.png)
+![Goals___All.png](../../assets/personal/simplicity-in-life-management/Goals___All.png)
 
 The properties are fairly simple, with most of the complexity happening in the “Time Left” property, which is just a formula to calculate how many days are between “To Accomplish By” and today’s date. “Actions” is a “Relation” property type that will point to any tasks assigned to this goal directly. Parent Goal & Child Goals are any goals of a different “Time Horizon” that relate to the goal I’m looking at.
 
@@ -57,13 +57,13 @@ The properties are fairly simple, with most of the complexity happening in the �
 
 ### Action Items
 
-![Action_items.png](/assets/personal/simplicity-in-life-management/Action_items.png)
+![Action_items.png](../../assets/personal/simplicity-in-life-management/Action_items.png)
 
 The “Action Items” database is just that, a list of every task I’ve added. Each of the pages (Inbox, Next Actions and Today at a Glance) use a Linked Database filtered by different criteria to ensure each of those pages keeps a specific focus.
 
 **The anatomy of a task**
 
-![Action_items.png](/assets/personal/simplicity-in-life-management/Action_items%201.png)
+![Action_items.png](../../assets/personal/simplicity-in-life-management/action_item.png)
 
 A task itself is pretty simple. The title of the task is the action I need to perform, and the content of the page, if required, contains any extra context I might need.
 
@@ -78,7 +78,7 @@ The 3 pages are:
 
 ## Inbox
 
-![Inbox.png](/assets/personal/simplicity-in-life-management/Inbox.png)
+![Inbox.png](../../assets/personal/simplicity-in-life-management/Inbox.png)
 
 My Inbox is the “In list” in the GTD methodology. It’s where I dump any unprocessed action item I need to get done. Sometimes it’ll contain ideas as well. Basically, anything that I want to remember to process but at a later date. A good example of that is sometimes, when I’m in bed, I’ll get an idea for a blog post, product, etc. I want a place I can quickly add something and know that tomorrow morning I’ll deal with whether or not it’s actually important. It lets me offload any mental processing to when I’m in a state to actually do it.
 
@@ -100,7 +100,7 @@ Once my inbox is empty, I move on to the “Next Actions” list.
 
 ## Next Actions
 
-![Next_Actions.png](/assets/personal/simplicity-in-life-management/Next_Actions.png)
+![Next_Actions.png](../../assets/personal/simplicity-in-life-management/Next_Actions.png)
 
 The setup is almost identical, except that I’m now looking at things in a card view split by domain. This gives me a glance at what my backlog is like for tasks. This is where priority & time start to play a part in my planning for the week.
 
@@ -112,7 +112,7 @@ Tasks that should be done today get marked as “Doing Today” which get moved 
 
 ## Today at a Glance
 
-![Today_at_a_Glance.png](/assets/personal/simplicity-in-life-management/Today_at_a_Glance.png)
+![Today_at_a_Glance.png](../../assets/personal/simplicity-in-life-management/Today_at_a_Glance.png)
 
 This page is where my focus lands for the rest of the day. I try to keep this open on my iPad at all times so I can quickly glance at what I should be working on _right now_. I haven’t been diagnosed, but I strongly suspect I have some form of attention deficit, since I can get sidetracked _incredibly_ easily.
 

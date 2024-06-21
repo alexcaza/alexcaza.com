@@ -14,5 +14,8 @@ export default defineConfig({
 				dark: 'catppuccin-latte'
 			}
 		}
+	},
+	image: {
+		domains: ['l.alexcaza.com', 's.alexcaza.com']
 	}
 });
