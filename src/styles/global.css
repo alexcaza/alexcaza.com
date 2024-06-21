@@ -222,10 +222,12 @@ section {
 	margin-bottom: 1.2rem;
 }
 
+pre:has(code) {
+	padding: 0.8rem;
+}
+
 code {
 	font-family: 'Courier New', Courier, monospace;
-	padding-inline: 0.2rem;
-	padding-block: 0.15rem;
 
 	@media (max-width: 743px) {
 		font-size: 0.7rem;
@@ -234,6 +236,12 @@ code {
 	@media (min-width: 744px) {
 		font-size: 1rem;
 	}
+
+}
+
+:where(p, li) code {
+	padding-inline: 0.2rem;
+	padding-block: 0.15rem;
 
 	@media (prefers-color-scheme: light) {
 		color: var(--main-text-light);
