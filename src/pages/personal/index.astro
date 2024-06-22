@@ -58,7 +58,14 @@ const posts = (await getCollection(Collections.blog)).sort(
 
 		a { 
 			text-decoration: none;
-			color: var(--main-text);
+
+			@media (prefers-color-scheme: light) {
+				color: var(--main-text);
+			}
+
+			@media (prefers-color-scheme: dark) {
+				color: var(--main-text-light);
+			}
 
 			&:hover {
 				opacity: 1;
