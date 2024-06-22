@@ -5,8 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://alexcaza.github.io',
-	base: 'alexcaza.com',
+	site: 'https://alexcaza.com',
 	integrations: [mdx(), sitemap()],
 	markdown: {
 		shikiConfig: {
