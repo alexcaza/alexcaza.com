@@ -3,10 +3,12 @@ title: "Updating a Neglected Repository"
 created_date: "2023-10-17"
 description: "A short tale about moving my small but minorly popular javascript library called export-to-csv to Bun and heavily refactoring it after many years."
 ---
+import {Image} from 'astro:assets';
+
 I maintain a small and minorly popular javascript library called [export-to-csv](https://github.com/alexcaza/export-to-csv). I originally forked it from [this repository](https://github.com/javiertelioz/angular2-csv), as we were using it at Sportlogiq but needed to fix a bug upstream. When I originally forked it, I also wanted to clean-up the coupling to Angular and refactor the code. Looking at the commit history you can see that the refactor never really happened. I just made the fix, published the package to npm and moved on with my life.
 
 <figure>
-<img src="https://s.alexcaza.com/Screen-Shot-2023-10-17-16-52-51.29-1697575976.png" alt="Code change history for the export-to-csv repository">
+<Image src="https://s.alexcaza.com/Screen-Shot-2023-10-17-16-52-51.29-1697575976.png" alt="Code change history for the export-to-csv repository" inferSize={true} />
 <figcaption>
 Code change history for the export-to-csv repository. You can clearly see there wasn't much activity until recently over the last 7 years.
 </figcaption>
