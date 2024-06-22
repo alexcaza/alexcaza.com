@@ -101,18 +101,16 @@ body {
 		background-color: var(--bg-dark);
 	}
 
-}
-
-body {
 	@media (max-width: 743px) {
 		padding: 20px;
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 
 	@media (min-width: 744px) {
 		padding: 40px;
 		font-size: 1.25rem;
 	}
+
 }
 
 h1,
@@ -161,11 +159,11 @@ h4 {
 }
 
 h5 {
-	font-size: 1rem;
+	font-size: 1.15rem;
 }
 
 h6 {
-	font-size: 0.875rem;
+	font-size: 1rem;
 }
 
 ul,
