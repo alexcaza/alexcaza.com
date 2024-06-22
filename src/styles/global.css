@@ -103,7 +103,7 @@ body {
 
 	@media (max-width: 743px) {
 		padding: 20px;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	@media (min-width: 744px) {
@@ -139,31 +139,49 @@ em {
 
 h1.title {
 	font-weight: 900;
-	font-size: 2.25rem;
+	font-size: 2.75rem;
 }
 
 h1 {
-	font-size: 2rem;
+	@media (max-width: 743px) {
+		font-size: 2.5rem;
+	}
+
+	@media (min-width: 744px) {
+		font-size: 2rem;
+	}
 }
 
 h2 {
-	font-size: 1.5rem;
+	@media (max-width: 743px) {
+		font-size: 2rem;
+	}
+
+	@media (min-width: 744px) {
+		font-size: 1.5rem;
+	}
 }
 
 h3 {
-	font-size: 1.375rem;
+	@media (max-width: 743px) {
+		font-size: 1.5rem;
+	}
+
+	@media (min-width: 744px) {
+		font-size: 1.375rem;
+	}
 }
 
-h4 {
-	font-size: 1.25rem;
-}
-
-h5 {
-	font-size: 1.15rem;
-}
-
+h4,
+h5,
 h6 {
-	font-size: 1rem;
+	@media (max-width: 743px) {
+		font-size: 1.375rem;
+	}
+
+	@media (min-width: 744px) {
+		font-size: 1.25rem;
+	}
 }
 
 ul,
@@ -228,7 +246,7 @@ code {
 	font-family: 'Courier New', Courier, monospace;
 
 	@media (max-width: 743px) {
-		font-size: 0.7rem;
+		font-size: 1.25rem;
 	}
 
 	@media (min-width: 744px) {
