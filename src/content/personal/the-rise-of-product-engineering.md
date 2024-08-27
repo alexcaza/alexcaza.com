@@ -21,6 +21,7 @@ Today, engineering, product and design leaders are starting to see the importanc
 So, what does that role look like?
 
 <a href="#framing"><h2 id="framing">Framing the Product Engineer role</h2></a>
+
 I see Product Engineering as a hybrid product/design/engineering role. One where the floor is strong competence in each discipline, and the ceiling is mastery in one. It's also an archetype that requires **exceptional** communication.
 
 The Product Engineering archetype cares strongly about building something that positively impacts end-users. Their goal is to balance business, end-user and engineering needs. They have compassion for user problems, and actively want to integrate themselves into the design process.
