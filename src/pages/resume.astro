@@ -2,10 +2,12 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+
+const today = new Date();
 ---
 <html lang="en">
 	<head>
-		<BaseHead title={"Now"} description="" />
+		<BaseHead title={"Resume " + today.getFullYear()} description="" />
 	</head>
 
 	<body>
