@@ -1,0 +1,104 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={"Links"} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main class="content-container">
+      <section>
+        <h1 class="title">My links</h1>
+
+        <nav class="link-grid" aria-label="Social links">
+          <a class="link-item" href="https://www.youtube.com/@alextriesthings" rel="noopener noreferrer" target="_blank">YouTube</a>
+          <a class="link-item" href="https://www.instagram.com/alexcaza" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a class="link-item" href="https://bsky.app/profile/alexcaza.com" rel="noopener noreferrer" target="_blank">Bluesky</a>
+          <a class="link-item" href="https://github.com/alexcaza" rel="noopener noreferrer" target="_blank">GitHub</a>
+        </nav>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .content-container {
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .title {
+    font-weight: 900;
+    margin-bottom: 0.25rem;
+  }
+
+  .link-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .link-item {
+    display: block;
+    text-decoration: none;
+    padding: 0.9rem 1.1rem;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: 800;
+    border: 1px solid;
+    transition: transform 120ms ease, opacity 120ms ease;
+  }
+
+  /* Color system that respects site's variables */
+  @media (prefers-color-scheme: light) {
+    .link-item {
+      background: var(--bg);
+      color: var(--main-text);
+      border-color: rgba(0,0,0,0.08);
+    }
+
+    .link-item:hover {
+      transform: translateY(-3px);
+      opacity: 0.95;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .link-item {
+      background: var(--bg-dark);
+      color: var(--main-text-light);
+      border-color: rgba(255,255,255,0.06);
+    }
+
+    .link-item:hover {
+      transform: translateY(-3px);
+      opacity: 0.95;
+    }
+  }
+
+  .link-item:active {
+    transform: translateY(0);
+    opacity: 0.9;
+  }
+
+  @media (max-width: 743px) {
+    .link-item {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (min-width: 744px) {
+    .link-item {
+      font-size: 1rem;
+    }
+  }
+</style>

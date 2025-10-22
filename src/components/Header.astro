@@ -1,6 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { mkHomeLink, mkNowLink, mkBlogLink, mkResumeLink } from '../consts';
+import { mkHomeLink, mkNowLink, mkBlogLink, mkResumeLink, mkLinksLink } from '../consts';
 ---
 
 <header>
@@ -12,6 +12,7 @@ import { mkHomeLink, mkNowLink, mkBlogLink, mkResumeLink } from '../consts';
 			<HeaderLink href={mkNowLink()}>now</HeaderLink>
 			<HeaderLink href={mkBlogLink()}>thoughts</HeaderLink>
 			<HeaderLink href={mkResumeLink()}>resume</HeaderLink>
+			<HeaderLink href={mkLinksLink()}>links</HeaderLink>
 		</div>
 	</nav>
 </header>
