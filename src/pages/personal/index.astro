@@ -24,7 +24,7 @@ const posts = (await getCollection(Collections.blog)).sort(
 					{
 						posts.map((post) => (
 							<li class="article">
-								<a href={mkBlogLink(post.slug)}>
+								<a href={mkBlogLink(post.id)}>
 									<h2 class="article-title">{post.data.title}</h4>
 									<p class="article-date">
 										<FormattedDate date={post.data.created_date} />
