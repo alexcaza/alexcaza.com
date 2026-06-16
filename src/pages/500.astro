@@ -14,7 +14,7 @@ import { SITE_DESCRIPTION } from '../consts';
 	<body style="height: 100%;">
 		<Header />
 		<main>
-      <span style="">500</span>
+      <span>500</span>
       <div>
 	      <h1>Something went really wrong... Try again in a bit? 😅</h1>
 	      <em style="font-size: .8rem; padding-top: 0.3rem;">You can click on one of the links in the nav to try another page.</em>
@@ -42,14 +42,22 @@ import { SITE_DESCRIPTION } from '../consts';
 
 	span {
 		font-size: 5rem;
-		padding-right: 1rem;	
+		padding-right: 1rem;
 
 		@media (max-width: 743px) {
-		border-bottom: 1px solid var(--main-text);
+			border-bottom: 1px solid;
 		}
 
 		@media (min-width: 744px) {
-		border-right: 1px solid var(--main-text);
+			border-right: 1px solid;
+		}
+
+		@media (prefers-color-scheme: light) {
+			border-color: var(--main-text);
+		}
+
+		@media (prefers-color-scheme: dark) {
+			border-color: var(--main-text-dark);
 		}
 	}
 </style>

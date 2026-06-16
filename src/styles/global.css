@@ -9,12 +9,6 @@
 	--main-text-dark: #E8E4DC;
 	--muted: #7A7066;
 	--muted-dark: #9A9088;
-
-	/* legacy aliases used by BlogPost.astro inline style */
-	--links: var(--accent);
-	--links-light: var(--accent-dark);
-	--visited-links: var(--accent-visited);
-	--visited-links-light: var(--accent-visited-dark);
 }
 
 @font-face {
@@ -329,6 +323,12 @@ img {
 	}
 
 	@media screen {
+		display: none !important;
+	}
+}
+
+.no-print {
+	@media print {
 		display: none !important;
 	}
 }
