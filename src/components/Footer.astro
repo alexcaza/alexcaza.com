@@ -7,26 +7,36 @@ const today = new Date();
 </footer>
 <style>
 footer {
-	margin-top: 1rem;
+	margin-top: 2rem;
 	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: 'Courier New', Courier, monospace;
+	letter-spacing: 0.01em;
+
+	@media (prefers-color-scheme: light) {
+		color: var(--muted);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: var(--muted-dark);
+	}
 
 	@media (max-width: 743px) {
-		justify-content: center;
-		font-size: 0.5rem;
+		font-size: 0.6875rem;
 	}
 
 	@media (min-width: 744px) {
-		font-size: 1rem;
+		font-size: 0.75rem;
 	}
 }
 
 footer a {
 	@media (max-width: 743px) {
-	padding-inline: 0.1rem;
+		padding-inline: 0.1rem;
 	}
 
 	@media (min-width: 744px) {
-	padding-inline: 0.2rem;
+		padding-inline: 0.2rem;
 	}
 }
 </style>

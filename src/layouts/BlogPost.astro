@@ -13,15 +13,6 @@ const { title, description, created_date, wordCount } = Astro.props;
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
-		<style>
-			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
-			}
-			.last-updated-on {
-				font-style: italic;
-			}
-		</style>
 	</head>
 
 	<body>
@@ -50,7 +41,24 @@ const { title, description, created_date, wordCount } = Astro.props;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		padding-bottom: .8rem;
-		font-size: 1rem;
+		padding-bottom: 0.6rem;
+		font-family: 'Courier New', Courier, monospace;
+		letter-spacing: 0.02em;
+
+		@media (max-width: 743px) {
+			font-size: 0.75rem;
+		}
+
+		@media (min-width: 744px) {
+			font-size: 0.8125rem;
+		}
+
+		@media (prefers-color-scheme: light) {
+			color: var(--muted);
+		}
+
+		@media (prefers-color-scheme: dark) {
+			color: var(--muted-dark);
+		}
 	}
 </style>

@@ -1,12 +1,14 @@
 :root {
-	--bg: #FFFCF7;
-	--bg-dark: #343434;
-	--links: #4578C6;
-	--links-light: #83ACEA;
-	--visited-links: #9B65B4;
-	--visited-links-light: #CE91EA;
-	--main-text: var(--bg-dark);
-	--main-text-light: var(--bg);
+	--bg: #F4F0E8;
+	--bg-dark: #141210;
+	--accent: #C8391A;
+	--accent-visited: #8C4A38;
+	--accent-dark: #D9523A;
+	--accent-visited-dark: #A06050;
+	--main-text: #1A1610;
+	--main-text-dark: #E8E4DC;
+	--muted: #7A7066;
+	--muted-dark: #9A9088;
 }
 
 @font-face {
@@ -17,7 +19,15 @@
 	font-display: fallback;
 }
 
-/* 
+@font-face {
+	font-family: 'IBM Plex Sans';
+	src: url('/fonts/IBMPlexSans_wght.woff2') format('woff2');
+	font-weight: 100 700;
+	font-style: normal;
+	font-display: fallback;
+}
+
+/*
 	Flexbox reset
 	source: https://github.com/dwhieb/flexbox-reset
 */
@@ -97,20 +107,19 @@ body {
 	}
 
 	@media (prefers-color-scheme: dark) {
-		color: var(--main-text-light);
+		color: var(--main-text-dark);
 		background-color: var(--bg-dark);
 	}
 
 	@media (max-width: 743px) {
 		padding: 20px;
-		font-size: 1.5rem;
+		font-size: 1.125rem;
 	}
 
 	@media (min-width: 744px) {
 		padding: 40px;
-		font-size: 1.25rem;
+		font-size: 1.1875rem;
 	}
-
 }
 
 h1,
@@ -119,7 +128,9 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: 1.1;
+	font-family: 'IBM Plex Sans', sans-serif;
+	line-height: 1.05;
+	letter-spacing: -0.025em;
 	padding-block: 0.5rem;
 }
 
@@ -130,7 +141,7 @@ h4,
 h5,
 h6,
 strong {
-	font-weight: 800;
+	font-weight: 600;
 }
 
 em {
@@ -138,33 +149,34 @@ em {
 }
 
 h1.title {
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 2.75rem;
+	letter-spacing: -0.035em;
 }
 
 h1 {
 	@media (max-width: 743px) {
-		font-size: 2.5rem;
+		font-size: 2.25rem;
 	}
 
 	@media (min-width: 744px) {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 }
 
 h2 {
 	@media (max-width: 743px) {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	@media (min-width: 744px) {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 	}
 }
 
 h3 {
 	@media (max-width: 743px) {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 	}
 
 	@media (min-width: 744px) {
@@ -176,7 +188,7 @@ h4,
 h5,
 h6 {
 	@media (max-width: 743px) {
-		font-size: 1.375rem;
+		font-size: 1.125rem;
 	}
 
 	@media (min-width: 744px) {
@@ -209,7 +221,7 @@ li {
 
 p,
 li {
-	line-height: 140%;
+	line-height: 155%;
 }
 
 ul,
@@ -220,17 +232,29 @@ p {
 
 a {
 	text-decoration: underline;
+	text-underline-offset: 0.15em;
+	text-decoration-thickness: 1px;
 
 	&:hover {
 		opacity: 0.7;
 	}
 
 	@media (prefers-color-scheme: light) {
-		color: var(--links);
+		color: var(--accent);
 	}
 
 	@media (prefers-color-scheme: dark) {
-		color: var(--links-light);
+		color: var(--accent-dark);
+	}
+}
+
+a:visited {
+	@media (prefers-color-scheme: light) {
+		color: var(--accent-visited);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: var(--accent-visited-dark);
 	}
 }
 
@@ -246,13 +270,12 @@ code {
 	font-family: 'Courier New', Courier, monospace;
 
 	@media (max-width: 743px) {
-		font-size: 1.25rem;
-	}
-
-	@media (min-width: 744px) {
 		font-size: 1rem;
 	}
 
+	@media (min-width: 744px) {
+		font-size: 0.9375rem;
+	}
 }
 
 :where(p, li) code {
@@ -260,26 +283,27 @@ code {
 	padding-block: 0.15rem;
 
 	@media (prefers-color-scheme: light) {
-		color: var(--main-text-light);
-		background-color: var(--bg-dark);
+		color: var(--main-text-dark);
+		background-color: var(--main-text);
 	}
 
 	@media (prefers-color-scheme: dark) {
 		color: var(--main-text);
-		background-color: var(--bg);
+		background-color: var(--main-text-dark);
 	}
 }
 
 hr {
-	border-style: solid;
+	border: none;
+	border-top: 1px solid;
 	margin-block: 0.25rem;
 
 	@media (prefers-color-scheme: light) {
-		border-color: var(--bg-dark);
+		border-color: var(--main-text);
 	}
 
 	@media (prefers-color-scheme: dark) {
-		border-color: var(--bg);
+		border-color: var(--main-text-dark);
 	}
 }
 
@@ -290,7 +314,7 @@ img {
 
 .content-container {
 	width: 100%;
-	max-width: 580px;
+	max-width: 640px;
 }
 
 .print-only {
@@ -303,6 +327,12 @@ img {
 	}
 }
 
+.no-print {
+	@media print {
+		display: none !important;
+	}
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;
@@ -311,12 +341,8 @@ img {
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
-	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
 	clip: rect(1px 1px 1px 1px);
-	/* maybe deprecated but we need to support legacy browsers */
 	clip: rect(1px, 1px, 1px, 1px);
-	/* modern browsers, clip-path works inwards from each corner */
 	clip-path: inset(50%);
-	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
