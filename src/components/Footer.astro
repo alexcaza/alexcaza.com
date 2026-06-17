@@ -3,13 +3,18 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Alex Caza. All rights reserved. | <a href="https://github.com/alexcaza/alexcaza.com">Statically generated</a> in Montreal, Canada | <a href="https://forms.gle/pBhryoMzfqErZAuH6">Contact me</a>
+    <div>
+        &copy; {today.getFullYear()} Alex Caza. All rights reserved. | <a href="https://github.com/alexcaza/alexcaza.com">Statically generated</a> in Montreal, Canada | <a href="https://forms.gle/pBhryoMzfqErZAuH6">Contact me</a>
+    </div>
+	<div>
+    	<a href="https://xn--sr8hvo.ws/previous">←</a>
+        An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> 🕸💍
+        <a href="https://xn--sr8hvo.ws/next">→</a>
+	</div>
 </footer>
 <style>
 footer {
 	margin-top: 2rem;
-	flex-direction: row;
-	flex-wrap: wrap;
 	font-family: 'Courier New', Courier, monospace;
 	letter-spacing: 0.01em;
 
@@ -21,13 +26,32 @@ footer {
 		color: var(--muted-dark);
 	}
 
-	@media (max-width: 743px) {
+}
+
+footer div {
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    @media (max-width: 743px) {
 		font-size: 0.6875rem;
 	}
 
 	@media (min-width: 744px) {
 		font-size: 0.75rem;
 	}
+}
+
+footer div:last-child {
+    padding-top: 12px;
+}
+
+footer div:last-child a:first-child {
+    margin-right: 6px;
+}
+
+footer div:last-child a:last-child {
+    margin-left: 6px;
 }
 
 footer a {
