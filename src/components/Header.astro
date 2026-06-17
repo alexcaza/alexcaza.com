@@ -4,6 +4,11 @@ import { mkHomeLink, mkNowLink, mkBlogLink, mkResumeLink, mkLinksLink } from '..
 ---
 
 <header>
+	<div class="h-card visually-hidden">
+		<a class="p-name u-url" href="https://alexcaza.com">Alex Caza</a>
+		<p class="p-note">Product engineer with over 15 years experience, writing about software, process, and everyday life.</p>
+		<p class="p-job-title">Product Engineer</p>
+	</div>
 	<nav>
 		<div>
 			<a class="home-link" href={mkHomeLink()}>alex<br>caza</a>
@@ -18,6 +23,18 @@ import { mkHomeLink, mkNowLink, mkBlogLink, mkResumeLink, mkLinksLink } from '..
 	<hr class="header-rule" />
 </header>
 <style>
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
+
 	header {
 		max-width: 640px;
 	}
