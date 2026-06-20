@@ -1,6 +1,6 @@
 ---
 title: "My Apple Watch was making my anxiety worse"
-created_at: "2026-06-19"
+created_date: "2026-06-19"
 description: "Eight years of daily Apple Watch wear taught me to trust data over my own body. Switching to mechanical watches showed me how much that was costing my mental health."
 ---
 I’ve given up my Apple Watch for mechanical watches recently. It started with a fascination for the mechanical world, and ended with me realizing that my daily smart watch wear over the last ~8 years distorted my relationship with my body.
