@@ -1,5 +1,5 @@
 ---
-title: "2204 End of year review"
+title: "2024 End of year review"
 created_date: "2025-01-06"
 description: "I wanted to take a step back at the end of 2024 and go over my wins, and think about how I'd like to change in 2025. I figured I'd write and publish my thinking to help myself refine my thoughts, and also keep myself accountable."
 ---
