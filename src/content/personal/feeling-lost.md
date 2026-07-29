@@ -9,11 +9,13 @@ I'm bullish on [tech workers leveraging AI](https://alexcaza.com/personal/the-ag
 
 In other words: I'm really fucking lost right now.
 
-My career has only been tech. It's what I've known my entire adult life. It feels scary to even contemplate leaving it, and start over on something else entirely. Especially while the shape of work feels so precarious. Though, the big reason is the comforts that come with white collar work. Even though I think I've become a worse _human_ because of those comforts I struggle to imagine giving them up.
+My career has only been tech. It's what I've known my entire adult life. It feels scary to even contemplate leaving it, and start over on something else entirely. Especially while the shape of work in general feels so... precarious.
 
-There's also still a glimmer of fun and hope I have in my heart around tech.
+In honesty, the main reason I'm fearful is loosing the comforts that come with white collar work. Even though I think I've become a worse _human_ because of those comforts, I struggle to imagine giving them up.
 
-I want to believe it'll settle back to where it was; not fully, but close enough, to feel inspiring again. It's possible I'm looking back with rose tinted glasses, too. Maybe it wasn't all it was cracked up to be back then and I'm just romanticizing things.
+There's also still a glimmer of hope I have in my heart around tech.
+
+I want to believe it'll settle back to where it was; not fully, but close enough, to feel inspiring again. It's possible I'm looking back with rose tinted glasses, too. Maybe it wasn't all it was cracked up to be back in-the-day, and I'm just romanticizing things.
 
 Maybe it's me that's changed; what excites me has changed. Maybe I'm confusing my own emotions with how the industry is changing. I don't think I'm alone, though. Comments and posts pop up with [people feeling the same things as me.](https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026) We're stuck in a race to the bottom, not a race towards improvement. It's innovation for the sake of it, not with real application in mind.
 
