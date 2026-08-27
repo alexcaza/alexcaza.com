@@ -1,0 +1,14 @@
+---
+title: "I Always Forget About Music"
+created_date: "2026-08-26"
+description: "I used to reach for music to actually feel things. Somewhere along the way I stopped, and I couldn't tell you why until tonight, sitting on the couch in a rough mood. This is me trying to work out why something that helps so much is the last thing I reach for."
+---
+Music has always played a huge part in my life. Thousands of background hours filled with various songs. Music used to be the medium I would reach for to help me process things. To sit with my emotions, whatever they may be. Or, to help me get into flow and focus. Focus on whatever was in front of me and let the world melt away. That's changed the last few years. I keep forgetting music is so important to me. And, I think I finally realized why.
+
+It hit me while sitting on the couch tonight. I've been having a particularly weird day emotionally. My low back is stuck, I'm exhausted and feeling a bit lonely. I'm down. Maybe YouTube's algorithm could feel that because waiting for me in its recommendations was a song I've been enjoying lately (King of Having Fun by Medium Build). Instead of being a mindless lump on the couch, I figured I'd throw it on and just sit with what I'm feeling. 
+
+The song is such a great encapsulation of sad nostalgia mixed with hope for the future. It was the perfect fit for my weird emotional state. It was healing. I could feel myself getting a bit lighter. Which happens to me _every time_ I reach for music to help me process and **feel.**
+
+So, why isn't this the _first thing_ I reach for, then? Well, because it's harder than the abundance of alternatives I have for numbing myself now. It requires a level of commitment and discomfort that consuming other media doesn't. Scrolling short-form videos overload me with dopamine, numbing my brain. My regular watching (more comedy/gaming/filmmaking videos) just distract me. Podcasts just add noise to drown out the thoughts and feelings. But music? Music—good music anyway—is filled with emotion. It's like a guide taking you through your inner turbulence.
+
+Taking the step to put on music is harder than popping on a youtube video or a podcast, though. Not physically harder—music is abundant, too—but mentally difficult. Music doesn't give me the same instant numbing that a video or podcast does. Even though, 9/10 times, putting on music is exponentially more healing than whatever other numbing techniques I reach for. Which is a shame! Like right now, I'm sitting here listening to IDLES, whose energy is propelling me to write this at 9:36pm and push out the grumpy negativity I've been feeling all day. The emotion and vibrance of their music is cathartic. I'm sure I'll be able to sleep better tonight. Barring more rude awakenings from our cat at 5am.
