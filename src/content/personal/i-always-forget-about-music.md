@@ -1,7 +1,7 @@
 ---
 title: "I Always Forget About Music"
 created_date: "2026-08-26"
-description: "I used to reach for music to actually feel things. Somewhere along the way I stopped, and I couldn't tell you why until tonight, sitting on the couch in a rough mood. This is me trying to work out why something that helps so much is the last thing I reach for."
+description: "I used to reach for music to help me process things or get into flow. Somewhere along the way I stopped, and I couldn't tell you why until tonight. This is me trying to work out why something that helps so much is the I forget to reach for."
 ---
 Music has always played a huge part in my life. Thousands of background hours filled with various songs. Music used to be the medium I would reach for to help me process things. To sit with my emotions, whatever they may be. Or, to help me get into flow and focus. Focus on whatever was in front of me and let the world melt away. That's changed the last few years. I keep forgetting music is so important to me. And, I think I finally realized why.
 
