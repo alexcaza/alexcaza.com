@@ -32,7 +32,7 @@ jobs:
           name: dist
           path: dist
       - name: Deploy
-        run: npx --yes dxfl deploy alexcaza.deuxfleurs.eu dist --yes
+        run: npx --yes dxfl deploy alexcaza.com dist --yes
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DXFL_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.DXFL_SECRET_ACCESS_KEY }}
